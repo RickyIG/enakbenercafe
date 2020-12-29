@@ -1,0 +1,250 @@
+/* for tablet */
+@media screen and (max-width: 1000px){
+    #top-header{
+        padding: 0px 5px;
+    }
+
+    #bottom-header h1{
+        font-size: 53px;
+        padding: 40px 0px 10px 0px;
+    }
+
+    #bottom-header p{
+        font-size: 15px;
+    }
+
+    #content{
+        padding: 0px 50px;
+    }
+
+    #about article figure{
+        flex-basis: 50%;
+    }
+
+    #about figure+article{
+        flex-basis: 50%;
+        padding-left: 40px;
+    }
+
+    #about figure+article p{
+        font-size: 14px;
+    }
+
+    #about footer a{
+        font-size: 12px;
+    }
+
+    #service article section{
+        flex-basis: 49%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .detail-service{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .detail-service h3{
+        flex-basis: 100%;
+        font-size: 18px;
+    }
+
+    .detail-service p{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    #works article section{
+        flex-basis: 47%;
+        padding-bottom: 50px;
+    }
+
+    #works section h3{
+        font-size: 15px;
+    }
+
+    #contact article p{
+        font-size: 14px;
+    }
+
+    main+footer{
+        padding: 15px 50px;
+    }
+}
+
+@media screen and (max-width: 910px){
+    #about header+article{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about article figure{
+        flex-basis: 100%;
+    }
+
+    #about article figure img{
+        width: 100%;
+    }
+
+    #about figure+article{
+        flex-basis: 100%;
+        padding: 20px 0px 0px 0px;
+    }
+}
+
+/* for mobile */
+@media screen and (max-width: 693px){
+    #top-header{
+        padding: 0px 25px;
+        flex-wrap: wrap;
+    }
+
+    #menu{
+        flex-basis: 78%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 25px 0px;
+    }
+
+    nav{
+        flex-basis: 100%;
+        display: none;
+    }
+
+    nav ul{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav li{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    nav li a{
+        padding: 20px 100%;
+    }
+
+    nav.show{
+        display: flex;
+    }
+
+    nav li a:hover{
+        background-color: #001C40;
+    }
+
+    #bottom-header h1{
+        font-size: 43px;
+        padding: 40px 0px 10px 0px;
+    }
+
+    #bottom-header p{
+        font-size: 14px;
+    }
+
+    #btn-contact a{
+        font-size: 13px;
+    }
+
+    #content{
+        padding: 0px 25px;
+    }
+
+    #about figure+article p{
+        font-size: 13px;
+    }
+
+    #service, #works, #contact{
+        padding-top: 110px;
+    }
+
+    #service article section{
+        flex-basis: 100%;
+    }
+
+    .detail-service{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .detail-service h3{
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+
+    .detail-service p{
+        font-size: 13px;
+    }
+
+    #works article section{
+        flex-basis: 100%;
+    }
+
+    #works section h3{
+        font-size: 15px;
+    }
+
+    #works section p{
+        font-size: 13px;
+    }
+
+    #contact{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    #contact header{
+        flex-basis: 100%;
+        padding-bottom: 70px;
+    }
+
+    #contact article{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact article p{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    #input-contact{
+        width: 55%;
+        align-items: center;
+    }
+
+    main+footer{
+        padding: 15px 25px;
+    }
+
+    .card { grid-template-columns: repeat(1, 1fr); }
+
+}
+
+@media screen and (max-width: 500px){
+    #bottom-header h1{
+        font-size: 40px;
+        padding: 40px 0px 10px 0px;
+    }
+
+    #bottom-header p{
+        font-size: 13px;
+    }
+
+    #btn-contact a{
+        font-size: 12px;
+    }
+}

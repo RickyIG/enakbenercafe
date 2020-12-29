@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#top-header{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    transition: all 0.5s ease;
+}
+
+#top-header h2{
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    font-family: "poppins regular";
+    font-size: 21px;
+    color: white;
+}
+
+nav{
+    flex-basis: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    display: inline-block;
+    padding: 25px 0px 25px 30px;
+}
+
+nav li a{
+    font-family: "poppins light";
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+
+nav li a:hover{
+    border-bottom: 2px solid #FFD43B;
+}
